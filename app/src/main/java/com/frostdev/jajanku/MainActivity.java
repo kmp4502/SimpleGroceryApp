@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
         recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas are spherical or pear-shaped fruits\nthat can be as long as 20 inches.", "Rp. 15.000", "1", "KG", R.drawable.card3, R.drawable.b3));
         recentlyViewedList.add(new RecentlyViewed("Strawberry", "The strawberry is a highly nutritious fruit,\nloaded with vitamin C.", "Rp. 30.000", "1", "KG", R.drawable.card2, R.drawable.b1));
         recentlyViewedList.add(new RecentlyViewed("Kiwi", "Full of nutrients like vitamin C, vitamin K,\nvitamin E, folate, and potassium.", "Rp. 45.000", "1", "PC", R.drawable.card1, R.drawable.b2));
-
+        recentlyViewedList.add(new RecentlyViewed("Mango", "Mangoes are a tropical fruit high in Vitamin C and fiber, \n and also provide some Vitamin A.", "Rp. 20.000","1","KG", R.drawablecard5, R.drawable.b5));
+//I added the above item to the array list
         setDiscountedRecycler(discountedProductsList);
         setCategoryRecycler(categoryList);
         setRecentlyViewedRecycler(recentlyViewedList);
